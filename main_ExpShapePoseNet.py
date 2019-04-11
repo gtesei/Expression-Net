@@ -16,6 +16,7 @@ import myparse
 import csv
 
 sys.path.append('./kaffe')
+sys.path.append('./kaffe/tensorflow')
 sys.path.append('./ResNet')
 from ThreeDMM_shape import ResNet_101 as resnet101_shape
 from ThreeDMM_expr import ResNet_101 as resnet101_expr
